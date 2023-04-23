@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Box, Button, Snackbar } from '@mui/material';
+import { Box, Button, Divider, Snackbar, Stack } from '@mui/material';
 import { ContentCopyRounded } from '@mui/icons-material';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { coldarkDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
@@ -16,15 +16,13 @@ export default function Syntax(props) {
     }
   };
   return (
-    <Box position="relative">
-      <Button
-        variant="link"
-        onClick={handleSnackbar}
-        startIcon={<ContentCopyRounded />}
-        sx={{ position: 'absolute', top: 10, right: 5, color: '#fff', background: `rgba(0,0,0,0.8)` }}
-      >
-        Copy
-      </Button>
+    <Box bgcolor="#111b27" borderRadius={1}>
+      <Stack direction="row" justifyContent="flex-end" p={1}>
+        <Button variant="link" onClick={handleSnackbar} startIcon={<ContentCopyRounded />} sx={{ color: '#eee' }}>
+          Copy
+        </Button>
+      </Stack>
+      <Divider />
       <SyntaxHighlighter language="jsx" style={coldarkDark}>
         {children}
       </SyntaxHighlighter>
