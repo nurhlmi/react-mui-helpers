@@ -11,6 +11,9 @@ import Autocomplete from './pages/Autocomplete';
 import DatePicker from './pages/DatePicker';
 import Wysiwyg from './pages/Wysiwyg';
 
+// API
+import Promise from './pages/Promise';
+
 // *
 import Page404 from './pages/Page404';
 import Maintenance from './pages/Maintenance';
@@ -59,7 +62,7 @@ export default function Router() {
         { path: 'get-data', element: <Maintenance /> },
         { path: 'handle-submit', element: <Maintenance /> },
         { path: 'handle-delete', element: <Maintenance /> },
-        { path: 'promise', element: <Maintenance /> },
+        { path: 'promise', element: <Promise /> },
         { path: '*', element: <Page404 replace /> },
       ],
     },

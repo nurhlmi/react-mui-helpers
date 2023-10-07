@@ -5,5 +5,6 @@ import checkbox from './checkbox';
 import datepicker from './datepicker';
 import autocomplete from './autocomplete';
 import wysiwyg from './wysiwyg';
+import promise from './promise';
 
-export { textfield, select, radiobutton, checkbox, datepicker, autocomplete, wysiwyg };
+export { textfield, select, radiobutton, checkbox, datepicker, autocomplete, wysiwyg, promise };
