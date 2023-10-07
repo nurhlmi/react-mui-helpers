@@ -44,6 +44,7 @@
     "@mui/x-date-pickers": "^5.0.20",
     "@testing-library/jest-dom": "^5.16.2",
     "apexcharts": "^3.35.0",
+    "caniuse-lite": "^1.0.30001546",
     "change-case": "^4.1.2",
     "date-fns": "^2.29.3",
     "formik": "^2.2.9",
