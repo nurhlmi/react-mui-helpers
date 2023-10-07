@@ -10,6 +10,7 @@ export default function TextField() {
         <Typography variant="h3">Text Field</Typography>
         <Section mock={mock.textfield.name} />
         <Section mock={mock.textfield.nik} />
+        <Section mock={mock.textfield.email} />
         <Section mock={mock.textfield.start} />
         <Section mock={mock.textfield.end} />
       </Container>
