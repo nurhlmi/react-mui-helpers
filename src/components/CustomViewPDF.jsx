@@ -12,7 +12,7 @@ export default function CustomViewPDF({ pdf }) {
       {
         path: '/webviewer/lib/public',
         initialDoc: pdf,
-        licenseKey: 'VMeLR5MsW5lX3X9YfqQF',
+        licenseKey: import.meta.env.VITE_PDFJS_LICENSE_KEY,
       },
       viewer.current
     );
