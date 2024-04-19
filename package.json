@@ -42,6 +42,7 @@
     "@mui/lab": "^5.0.0-alpha.120",
     "@mui/material": "^5.11.9",
     "@mui/x-date-pickers": "^5.0.20",
+    "@pdftron/pdfjs-express-viewer": "^8.7.4",
     "@testing-library/jest-dom": "^5.16.2",
     "apexcharts": "^3.35.0",
     "caniuse-lite": "^1.0.30001546",

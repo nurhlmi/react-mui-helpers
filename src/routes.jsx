@@ -11,6 +11,9 @@ import Autocomplete from './pages/Autocomplete';
 import DatePicker from './pages/DatePicker';
 import Wysiwyg from './pages/Wysiwyg';
 
+// Utilities
+import ViewPDF from './pages/ViewPDF';
+
 // API
 import Promise from './pages/Promise';
 
@@ -56,7 +59,7 @@ export default function Router() {
         { path: 'get-filename', element: <Maintenance /> },
         { path: 'export-csv', element: <Maintenance /> },
         { path: 'export-pdf', element: <Maintenance /> },
-        { path: 'view-pdf', element: <Maintenance /> },
+        { path: 'view-pdf', element: <ViewPDF /> },
         { path: 'qr-code', element: <Maintenance /> },
         // API
         { path: 'get-data', element: <Maintenance /> },
